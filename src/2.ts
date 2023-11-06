@@ -28,7 +28,7 @@ class Employee {
 
 class Manager extends Employee {
     constructor(name: string, department: string, salary: number) {
-        super(name, department, salary);
+        super(name, department, salary + 10000);
     }
     addSalary(sum: number): void {
         this.salary += sum;
